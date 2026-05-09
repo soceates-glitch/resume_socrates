@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Socrates Degout | Resume</title>
+  <style>
+    /* ---------- Base Styles ---------- */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    /* ---------- Header ---------- */
+    .header {
+      background: linear-gradient(135deg, #1f4e79, #2d6ca2);
+      color: white;
+      padding: 40px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+
+    .header .contact {
+      margin-top: 10px;
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    .header .summary {
+      margin-top: 20px;
+      max-width: 750px;
+      font-size: 1.05rem;
+    }
+
+    /* ---------- Content ---------- */
+    .content {
+      padding: 35px 40px 45px;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    h2 {
+      margin: 0 0 15px;
+      font-size: 1.3rem;
+      color: #1f4e79;
+      border-bottom: 2px solid #dbe4ee;
+      padding-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skills li {
+      background: #eef4fb;
+      color: #1f4e79;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    .entry-title {
+      font-weight: 700;
+      color: #222;
+    }
+
+    .entry-subtitle {
+      color: #666;
+      font-style: italic;
+      margin-bottom: 8px;
+    }
+
+    /* ---------- Footer ---------- */
+    .footer-note {
+      font-size: 0.95rem;
+      color: #666;
+      margin-top: 10px;
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 700px) {
+      body {
+        padding: 20px 10px;
+      }
+
+      .header,
+      .content {
+        padding: 25px 20px;
+      }
+
+      .header h1 {
+        font-size: 2.1rem;
+      }
+
+      .skills {
+        gap: 8px;
+      }
+
+      .skills li {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <!-- Header -->
+    <header class="header">
+      <h1 id="name">Socrates Degout</h1>
+      <div class="contact" id="contact">
+        Phone Number | Email Address | City, State
+      </div>
+
+      <p class="summary" id="summary">
+        Motivated high school student with strong communication, teamwork, and
+        problem-solving skills. Quick learner with experience contributing to a
+        school architecture project and creating a custom Minecraft mod to
+        develop coding and game design skills. Dependable, curious, and eager to
+        continue learning while contributing positively in academic, volunteer,
+        and future work environments.
+      </p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+      <section>
+        <h2>Education</h2>
+        <p>
+          <span class="entry-title">High School Student</span><br />
+          Currently pursuing a secondary education while building technical,
+          creative, and leadership skills through projects and extracurricular
+          activities.
+        </p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul class="skills" id="skills-list">
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Computer Skills</li>
+          <li>Problem Solving</li>
+          <li>Coding Fundamentals</li>
+          <li>Creativity</li>
+          <li>Time Management</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+
+        <p class="entry-title">School Architecture Team Member</p>
+        <p class="entry-subtitle">Middle School Yard Redesign Project</p>
+        <ul>
+          <li>
+            Collaborated with peers and staff to design ideas for improving the
+            school yard.
+          </li>
+          <li>
+            Contributed creative suggestions and participated in planning
+            discussions.
+          </li>
+          <li>
+            Developed teamwork and communication skills while working on a real
+            design project.
+          </li>
+        </ul>
+
+        <p class="entry-title" style="margin-top: 20px;">Counselor Assistant</p>
+        <p class="entry-subtitle">Child Supervision and Activity Support</p>
+        <ul>
+          <li>
+            Assisted counselors in supervising and caring for children in a safe
+            and organized environment.
+          </li>
+          <li>
+            Helped with activities and maintained a positive atmosphere.
+          </li>
+          <li>
+            Built responsibility, patience, and leadership skills.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <p class="entry-title">Custom Minecraft Mod Development</p>
+        <ul>
+          <li>
+            Designed and built a personal Minecraft mod to experiment with
+            coding and game mechanics.
+          </li>
+          <li>
+            Strengthened programming, debugging, and creative problem-solving
+            skills.
+          </li>
+          <li>
+            Demonstrated initiative by learning independently and completing a
+            technical project.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Activities and Leadership</h2>
+        <ul>
+          <li>
+            <span class="entry-title">Soccer Player</span> – Developed teamwork,
+            discipline, and perseverance through regular practice and
+            competition.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Awards and Certifications</h2>
+        <p class="footer-note">
+          Add academic awards, certifications, and honors here as you earn them.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    // Automatically update the current year in the page title if needed
+    document.title = document.getElementById("name").textContent + " | Resume";
+
+    // Example of dynamically adding a new skill
+    // To add more skills, duplicate the lines below and change the text.
+    const additionalSkills = ["Adaptability", "Self-Learning"];
+
+    const skillsList = document.getElementById("skills-list");
+
+    additionalSkills.forEach(skill => {
+      const li = document.createElement("li");
+      li.textContent = skill;
+      skillsList.appendChild(li);
+    });
+  </script>
+</body>
+</html>
